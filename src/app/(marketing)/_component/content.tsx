@@ -6,7 +6,7 @@ const TextContent = () => {
   return (
     <div className="flex flex-col space-y-5">
       <h1
-        className={`text-center font-bold text-2xl md:text-7xl md:text-left text-gray-600  bg-gradient-to-r from-green-600 dark:from-green-200  via-green-300 dark:via-green-600 to-gray-900 dark:to-white bg-clip-text text-transparent `}
+        className={`text-center font-bold text-2xl md:text-7xl md:text-left bg-gradient-to-r from-green-600 dark:from-green-200  via-green-400 dark:via-green-600 to-gray-900 dark:to-white bg-clip-text text-transparent `}
       >
         Hi there,I'm Tajj
       </h1>

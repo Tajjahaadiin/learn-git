@@ -1,10 +1,9 @@
 import Link from "next/link";
 import { PropsWithChildren } from "react";
-import { FileDown } from "lucide-react";
-import ThemeToggle from "./_component/theme-toggle";
-import Dropdown from "./_component/dropdown";
 import DownloadButton from "./_component/_button/download";
 import WhatsappdButton from "./_component/_button/whatsapp";
+import Dropdown from "./_component/dropdown";
+import ThemeToggle from "./_component/theme-toggle";
 
 const HomeLayout = ({ children }: PropsWithChildren) => {
   return (

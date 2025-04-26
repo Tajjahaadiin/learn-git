@@ -9,7 +9,7 @@ const ImageProfile = () => {
         <img
           src="dummy-profile.jpg"
           alt="profile"
-          className={`${imgVar} rounded-md shadow-gray-800 shadow-2xl`}
+          className={`${imgVar} rounded-md shadow-gray-800 dark:shadow-sky-950  shadow-2xl  `}
         />
       </div>
     </div>
