@@ -1,4 +1,5 @@
 import TextContent from "./_component/content";
+import ExperienceSection from "./_component/experience";
 import ImageProfile from "./_component/image";
 import { MarqueeDemo } from "./_component/marquee";
 
@@ -14,6 +15,9 @@ const HomePage = () => {
       </div>
       <div className="px-30 mb-20">
         <MarqueeDemo />
+      </div>
+      <div className="">
+        <ExperienceSection />
       </div>
     </>
   );
