@@ -1,7 +1,10 @@
+import ContactSection from "./_component/contact";
 import TextContent from "./_component/content";
 import ExperienceSection from "./_component/experience";
+import FooterSection from "./_component/footer";
 import ImageProfile from "./_component/image";
 import { MarqueeDemo } from "./_component/marquee";
+import ProjectsSection from "./_component/projects";
 
 const HomePage = () => {
   return (
@@ -19,6 +22,11 @@ const HomePage = () => {
       <div>
         <ExperienceSection />
       </div>
+      <div id="projects" className="px-30 mb-20 mt-20">
+        <ProjectsSection />
+      </div>
+      <ContactSection />
+      <FooterSection />
     </>
   );
 };
