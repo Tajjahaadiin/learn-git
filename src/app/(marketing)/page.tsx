@@ -13,10 +13,10 @@ const HomePage = () => {
         <ImageProfile />
         <TextContent />
       </div>
-      <div className="px-30 mb-20">
+      <div id="techstack" className="px-30 mb-20">
         <MarqueeDemo />
       </div>
-      <div className="">
+      <div>
         <ExperienceSection />
       </div>
     </>

@@ -28,7 +28,7 @@ const HomeLayout = ({ children }: PropsWithChildren) => {
                 </p>
               </Link>
               <Link
-                href={"#experience"}
+                href={"#experiences"}
                 className="group text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
               >
                 <p className="transition delay-50 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:scale-110">

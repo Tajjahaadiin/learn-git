@@ -50,7 +50,7 @@ export function MarqueeDemo() {
       <h2 className="text-4xl font-medium text-left ">
         Tech Stack - Tools I Use Everyday
       </h2>
-      <Marquee pauseOnHover id="techstack" className="[--duration:20s] ">
+      <Marquee pauseOnHover className="[--duration:20s] ">
         {reviews.map((review) => (
           <ReviewCard key={review.name} {...review} />
         ))}

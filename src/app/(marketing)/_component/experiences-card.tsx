@@ -4,7 +4,6 @@ import { Experiences } from "./experience";
 const ExperiencesCard = (experience: Experiences) => {
   return (
     <div
-      id="experiences"
       className={cn(
         "bg-bone dark:bg-gray-800  px-6 py-10 rounded-md ",
         "shadow-lg/10 shadow-gray-900 "

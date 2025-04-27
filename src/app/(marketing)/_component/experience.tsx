@@ -42,7 +42,9 @@ const experiences: Experiences[] = [
 const ExperienceSection = () => {
   return (
     <div className="flex flex-col space-y-20  px-20 ">
-      <h2></h2>
+      <h2 id="experiences" className="text-2xl font-bold ">
+        Work Experiences:
+      </h2>
       {experiences.map((experience, index) => (
         <ExperiencesCard key={index} {...experience} />
       ))}
