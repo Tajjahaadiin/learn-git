@@ -8,7 +8,7 @@ import ThemeToggle from "./_component/theme-toggle";
 const HomeLayout = ({ children }: PropsWithChildren) => {
   return (
     <div className="min-h-screen flex flex-col">
-      <nav className="fixed top-0 left-0 right-0 z-30 bg-white dark:bg-gray-900 transition-color duration-300">
+      <nav className="fixed top-0 left-0 right-0 z-30 bg-[#e8e8e8] dark:bg-gray-900 transition-color duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="group">
@@ -20,7 +20,7 @@ const HomeLayout = ({ children }: PropsWithChildren) => {
             </Link>
             <div className="hidden md:flex items-center space-x-6">
               <Link
-                href={""}
+                href={"#techstack"}
                 className=" group text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900  dark:hover:text-white  "
               >
                 <p className="transition delay-50 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:scale-110">
