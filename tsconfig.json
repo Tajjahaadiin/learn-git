@@ -5,7 +5,7 @@
     "target": "ES2017",
     "paths": {
       "@/styles/*": ["styles/*"],
-      "@/components/*": ["components/*"],
+      "@/components/*": ["src/components/*"],
       "@/*": ["./*"]
     },
     "lib": ["dom", "dom.iterable", "esnext"],
