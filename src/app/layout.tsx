@@ -1,6 +1,8 @@
 import { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "@/src/styles/globals.css";
+import { QueryProvider } from "./providers/query-providers";
+import ClientToaster from "./providers/toast-providers";
 const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-poppins",
@@ -21,7 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <body className={`${poppins.className}`}>{children}</body>
+      <body className={`${poppins.className}`}>
+        <QueryProvider>{children}</QueryProvider>
+        <ClientToaster />
+      </body>
     </html>
   );
 }
